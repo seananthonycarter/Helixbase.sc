@@ -8,8 +8,11 @@ namespace Helixbase.Foundation.DI
     {
         public void Configure(IServiceCollection serviceCollection)
         {
+
+            //Sitecore.Diagnostics.Log.Info(".AddMvcControllers",this);
             serviceCollection.AddMvcControllers(
                 "Helixbase.Feature.*");
+
         }
     }
 }

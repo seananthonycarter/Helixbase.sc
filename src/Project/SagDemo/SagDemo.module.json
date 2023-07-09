@@ -1,0 +1,47 @@
+{
+    "namespace": "Project.Sagdemo",
+    "references": [
+        "Foundation.*",
+        "Feature.*",
+        "Project.Common"
+    ],
+    "items": {
+        "includes": [
+            {
+                "name": "Templates",
+                "path": "/sitecore/templates/Project/Sagdemo",
+                "database": "master"
+            },
+            {
+                "name": "Renderings",
+                "path": "/sitecore/layout/renderings/Project/Sagdemo",
+                "database": "master"
+            },
+            {
+                "name": "Layouts",
+                "path": "/sitecore/layout/layouts/Project/Sagdemo",
+                "database": "master"
+            },
+            {
+                "name": "PlaceholderSettings",
+                "path": "/sitecore/layout/placeholder settings/Project/Sagdemo",
+                "database": "master"
+            },
+            {
+                "name": "Models",
+                "path": "/sitecore/layout/models/Project/Sagdemo",
+                "database": "master"
+            },
+            {
+                "name": "Content",
+                "path": "/sitecore/content/Sagdemo",
+                "database": "master"
+            },
+            {
+                "name": "Media",
+                "path": "/sitecore/media library/Project/Sagdemo",
+                "database": "master"
+            }
+        ]
+    }
+}

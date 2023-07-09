@@ -1,7 +1,7 @@
-﻿using Helixbase.Feature.Hero.Models;
-using Helixbase.Foundation.Search.Models;
+using SagDemo.Feature.Hero.Models;
+using SagDemo.Foundation.Search.Models;
 
-namespace Helixbase.Feature.Hero.Services
+namespace SagDemo.Feature.Hero.Services
 {
     public interface IHeroService
     {

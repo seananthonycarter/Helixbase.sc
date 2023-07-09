@@ -1,10 +1,10 @@
-﻿using Glass.Mapper.Sc;
+using Glass.Mapper.Sc;
 using Glass.Mapper.Sc.Web;
 using Sitecore;
 using Sitecore.ContentSearch;
 using Sitecore.Data.Items;
 
-namespace Helixbase.Foundation.Content.Repositories
+namespace SagDemo.Foundation.Content.Repositories
 {
     /// <summary>
     ///     Retrieve CMS information, wrapper for Sitecore API calls

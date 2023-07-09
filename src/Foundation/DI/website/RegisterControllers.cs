@@ -1,8 +1,8 @@
-﻿using Helixbase.Foundation.DI.Extensions;
+using SagDemo.Foundation.DI.Extensions;
 using Microsoft.Extensions.DependencyInjection;
 using Sitecore.DependencyInjection;
 
-namespace Helixbase.Foundation.DI
+namespace SagDemo.Foundation.DI
 {
     public class RegisterControllers : IServicesConfigurator
     {
@@ -11,7 +11,7 @@ namespace Helixbase.Foundation.DI
 
             //Sitecore.Diagnostics.Log.Info(".AddMvcControllers",this);
             serviceCollection.AddMvcControllers(
-                "Helixbase.Feature.*");
+                "SagDemo.Feature.*");
 
         }
     }

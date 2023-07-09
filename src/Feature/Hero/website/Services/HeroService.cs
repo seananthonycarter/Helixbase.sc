@@ -1,12 +1,12 @@
-﻿using System.Linq;
-using Helixbase.Feature.Hero.Models;
-using Helixbase.Foundation.Content.Repositories;
-using Helixbase.Foundation.Logging.Repositories;
-using Helixbase.Foundation.Search.Models;
+using System.Linq;
+using SagDemo.Feature.Hero.Models;
+using SagDemo.Foundation.Content.Repositories;
+using SagDemo.Foundation.Logging.Repositories;
+using SagDemo.Foundation.Search.Models;
 using Sitecore.ContentSearch.Linq.Utilities;
 using Sitecore.Data.Items;
 
-namespace Helixbase.Feature.Hero.Services
+namespace SagDemo.Feature.Hero.Services
 {
     public class HeroService : IHeroService
     {
@@ -50,7 +50,7 @@ namespace Helixbase.Feature.Hero.Services
             predicate = predicate.And(item => !item.Name.Equals("__Standard Values"));
 
             // We could set the index manually using the line below (do not use magic strings, sample only)
-            // var index = ContentSearchManager.GetIndex($"Helixbase_{_contextRepository.GetDatabaseContext()}_index");
+            // var index = ContentSearchManager.GetIndex($"SagDemo_{_contextRepository.GetDatabaseContext()}_index");
             // OR we could automate retrieval of the context index:
             var contextIndex = _contextRepository.GetSearchIndexContext(_contextRepository.GetCurrentItem<Item>());
 

@@ -1,8 +1,8 @@
-﻿using Helixbase.Foundation.Core.Models;
-using Helixbase.Foundation.Core.ViewModels;
+using SagDemo.Foundation.Core.Models;
+using SagDemo.Foundation.Core.ViewModels;
 using System.ComponentModel.DataAnnotations;
 
-namespace Helixbase.Foundation.Core.Services
+namespace SagDemo.Foundation.Core.Services
 {
     public class MediatorService : IMediatorService
     {

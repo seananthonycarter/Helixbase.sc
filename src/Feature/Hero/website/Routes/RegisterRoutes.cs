@@ -1,9 +1,9 @@
-﻿using System.Web.Http;
+using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Routing;
 using Sitecore.Pipelines;
 
-namespace Helixbase.Feature.Hero.Routes
+namespace SagDemo.Feature.Hero.Routes
 {
     public class RegisterRoutes
     {

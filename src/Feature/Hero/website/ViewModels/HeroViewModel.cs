@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Web;
 using Glass.Mapper.Sc.Fields;
 
-namespace Helixbase.Feature.Hero.ViewModels
+namespace SagDemo.Feature.Hero.ViewModels
 {
     public class HeroViewModel
     {

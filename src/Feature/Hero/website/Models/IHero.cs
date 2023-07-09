@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using Glass.Mapper.Sc.Fields;
 
-namespace Helixbase.Feature.Hero.Models
+namespace SagDemo.Feature.Hero.Models
 {
     public interface IHero
     {

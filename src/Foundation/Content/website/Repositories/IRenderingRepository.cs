@@ -1,7 +1,7 @@
-﻿using Glass.Mapper.Sc;
+using Glass.Mapper.Sc;
 using Sitecore.Data.Items;
 
-namespace Helixbase.Foundation.Content.Repositories
+namespace SagDemo.Foundation.Content.Repositories
 {
     public interface IRenderingRepository
     {

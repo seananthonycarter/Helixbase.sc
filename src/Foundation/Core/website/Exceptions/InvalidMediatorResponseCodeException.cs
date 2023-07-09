@@ -1,6 +1,6 @@
-﻿using System;
+using System;
 
-namespace Helixbase.Foundation.Core.Exceptions
+namespace SagDemo.Foundation.Core.Exceptions
 {
     public class InvalidMediatorResponseCodeException : Exception
     {

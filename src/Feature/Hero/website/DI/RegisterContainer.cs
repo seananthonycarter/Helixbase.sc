@@ -1,10 +1,10 @@
-﻿using Helixbase.Feature.Hero.Factories;
-using Helixbase.Feature.Hero.Mediators;
-using Helixbase.Feature.Hero.Services;
+using SagDemo.Feature.Hero.Factories;
+using SagDemo.Feature.Hero.Mediators;
+using SagDemo.Feature.Hero.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Sitecore.DependencyInjection;
 
-namespace Helixbase.Feature.Hero.DI
+namespace SagDemo.Feature.Hero.DI
 {
     public class RegisterContainer : IServicesConfigurator
     {

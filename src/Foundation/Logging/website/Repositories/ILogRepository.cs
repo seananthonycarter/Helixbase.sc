@@ -1,4 +1,4 @@
-﻿namespace Helixbase.Foundation.Logging.Repositories
+namespace SagDemo.Foundation.Logging.Repositories
 {
     public interface ILogRepository
     {

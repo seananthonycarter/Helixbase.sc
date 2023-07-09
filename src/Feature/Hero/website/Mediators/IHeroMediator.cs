@@ -1,7 +1,7 @@
-﻿using Helixbase.Feature.Hero.ViewModels;
-using Helixbase.Foundation.Core.Models;
+using SagDemo.Feature.Hero.ViewModels;
+using SagDemo.Foundation.Core.Models;
 
-namespace Helixbase.Feature.Hero.Mediators
+namespace SagDemo.Feature.Hero.Mediators
 {
     public interface IHeroMediator
     {

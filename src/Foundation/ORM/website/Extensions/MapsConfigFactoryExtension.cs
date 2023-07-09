@@ -1,10 +1,10 @@
-﻿using Glass.Mapper.IoC;
+using Glass.Mapper.IoC;
 using Glass.Mapper.Maps;
 using System;
 using System.Reflection;
-using Helixbase.Foundation.Core.Methods;
+using SagDemo.Foundation.Core.Methods;
 
-namespace Helixbase.Foundation.ORM.Extensions
+namespace SagDemo.Foundation.ORM.Extensions
 {
     public static class MapsConfigFactoryExtension
     {

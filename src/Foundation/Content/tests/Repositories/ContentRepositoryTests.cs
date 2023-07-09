@@ -1,14 +1,14 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using Glass.Mapper.Sc;
 using Glass.Mapper.Sc.Web;
 using FluentAssertions;
-using Helixbase.Foundation.Content.Repositories;
-using Helixbase.Foundation.Content.Tests.Models;
+using SagDemo.Foundation.Content.Repositories;
+using SagDemo.Foundation.Content.Tests.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NSubstitute;
 using Ploeh.AutoFixture;
 
-namespace Helixbase.Foundation.Content.Tests.Repositories
+namespace SagDemo.Foundation.Content.Tests.Repositories
 {
     [TestClass]
     public class ContentRepositoryTests

@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Text.RegularExpressions;
 
-namespace Helixbase.Foundation.Core.Methods
+namespace SagDemo.Foundation.Core.Methods
 {
     public static class GetAssemblies
     {

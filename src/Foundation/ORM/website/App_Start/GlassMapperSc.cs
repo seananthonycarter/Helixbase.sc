@@ -14,7 +14,7 @@ using Glass.Mapper.Sc.Pipelines.GetChromeData;
 using Sitecore.Pipelines;
 using System.Linq;
 
-namespace Helixbase.Foundation.ORM.App_Start
+namespace SagDemo.Foundation.ORM.App_Start
 {
 	public class GlassMapperSc : Glass.Mapper.Sc.Pipelines.Initialize.GlassMapperSc
 	{

@@ -1,11 +1,11 @@
-﻿using Helixbase.Feature.Hero.Factories;
-using Helixbase.Feature.Hero.Services;
-using Helixbase.Feature.Hero.ViewModels;
-using Helixbase.Foundation.Core.Models;
-using Helixbase.Foundation.Core.Services;
-using Helixbase.Foundation.Core.ViewModels;
+using SagDemo.Feature.Hero.Factories;
+using SagDemo.Feature.Hero.Services;
+using SagDemo.Feature.Hero.ViewModels;
+using SagDemo.Foundation.Core.Models;
+using SagDemo.Foundation.Core.Services;
+using SagDemo.Foundation.Core.ViewModels;
 
-namespace Helixbase.Feature.Hero.Mediators
+namespace SagDemo.Feature.Hero.Mediators
 {
     public class HeroMediator : IHeroMediator
     {

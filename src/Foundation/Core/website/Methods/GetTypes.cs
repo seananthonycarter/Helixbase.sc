@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Reflection;
 
-namespace Helixbase.Foundation.Core.Methods
+namespace SagDemo.Foundation.Core.Methods
 {
     public static class GetTypes
     {

@@ -1,12 +1,12 @@
-﻿using Glass.Mapper.Sc.Pipelines.AddMaps;
-using Helixbase.Foundation.ORM.Extensions;
+using Glass.Mapper.Sc.Pipelines.AddMaps;
+using SagDemo.Foundation.ORM.Extensions;
 
-namespace Helixbase.Feature.Hero.ORM
+namespace SagDemo.Feature.Hero.ORM
 {
     public class RegisterMappings : AddMapsPipeline  {
         public void Process(AddMapsPipelineArgs args)
         {
-            args.MapsConfigFactory.AddFluentMaps("Helixbase.Feature.Hero");
+            args.MapsConfigFactory.AddFluentMaps("SagDemo.Feature.Hero");
         }
     }
 }

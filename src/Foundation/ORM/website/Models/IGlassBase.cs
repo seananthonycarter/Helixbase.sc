@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using System.Collections;
 using Sitecore.Globalization;
 
-namespace Helixbase.Foundation.ORM.Models
+namespace SagDemo.Foundation.ORM.Models
 {
     public interface IGlassBase
     {

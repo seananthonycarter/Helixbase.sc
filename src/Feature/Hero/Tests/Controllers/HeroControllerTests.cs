@@ -1,18 +1,18 @@
-﻿using System;
+using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Web.Mvc;
 using FluentAssertions;
-using Helixbase.Feature.Hero.Controllers;
-using Helixbase.Feature.Hero.Mediators;
-using Helixbase.Feature.Hero.ViewModels;
-using Helixbase.Foundation.Core.Exceptions;
-using Helixbase.Foundation.Core.Models;
+using SagDemo.Feature.Hero.Controllers;
+using SagDemo.Feature.Hero.Mediators;
+using SagDemo.Feature.Hero.ViewModels;
+using SagDemo.Foundation.Core.Exceptions;
+using SagDemo.Foundation.Core.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NSubstitute;
 using Ploeh.AutoFixture;
-using ErrorMessages = Helixbase.Foundation.Core.Exceptions.Constants;
+using ErrorMessages = SagDemo.Foundation.Core.Exceptions.Constants;
 
-namespace Helixbase.Feature.Hero.Tests.Controllers
+namespace SagDemo.Feature.Hero.Tests.Controllers
 {
     [TestClass]
     [SuppressMessage("ReSharper", "PossibleNullReferenceException")]

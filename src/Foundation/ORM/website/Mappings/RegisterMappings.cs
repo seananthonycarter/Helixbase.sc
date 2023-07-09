@@ -1,12 +1,12 @@
-﻿using Glass.Mapper.Sc.Pipelines.AddMaps;
-using Helixbase.Foundation.ORM.Extensions;
+using Glass.Mapper.Sc.Pipelines.AddMaps;
+using SagDemo.Foundation.ORM.Extensions;
 
-namespace Helixbase.Foundation.ORM.Mappings
+namespace SagDemo.Foundation.ORM.Mappings
 {
     public class RegisterMappings : AddMapsPipeline  {
         public void Process(AddMapsPipelineArgs args)
         {
-            args.MapsConfigFactory.AddFluentMaps("Helixbase.Foundation.ORM");
+            args.MapsConfigFactory.AddFluentMaps("SagDemo.Foundation.ORM");
         }
     }
 }

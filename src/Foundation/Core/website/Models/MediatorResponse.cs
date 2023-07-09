@@ -1,7 +1,7 @@
-﻿using Helixbase.Foundation.Core.ViewModels;
+using SagDemo.Foundation.Core.ViewModels;
 using System.ComponentModel.DataAnnotations;
 
-namespace Helixbase.Foundation.Core.Models
+namespace SagDemo.Foundation.Core.Models
 {
     public class MediatorResponse
     {

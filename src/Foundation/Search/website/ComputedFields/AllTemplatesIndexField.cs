@@ -1,11 +1,11 @@
-﻿using Sitecore.ContentSearch;
+using Sitecore.ContentSearch;
 using Sitecore.ContentSearch.ComputedFields;
 using Sitecore.ContentSearch.Utilities;
 using Sitecore.Data.Items;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Helixbase.Foundation.Search.ComputedFields
+namespace SagDemo.Foundation.Search.ComputedFields
 {
     public class AllTemplatesIndexField : IComputedIndexField
     {

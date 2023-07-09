@@ -1,11 +1,11 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
 using Sitecore.Mvc.Controllers;
 using System;
 using System.Linq;
 using System.Reflection;
-using Helixbase.Foundation.Core.Methods;
+using SagDemo.Foundation.Core.Methods;
 
-namespace Helixbase.Foundation.DI.Extensions
+namespace SagDemo.Foundation.DI.Extensions
 {
     public static class ServiceCollectionExtensions
     {

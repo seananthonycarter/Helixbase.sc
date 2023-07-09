@@ -1,4 +1,4 @@
-﻿namespace Helixbase.Foundation.Core.ViewModels
+namespace SagDemo.Foundation.Core.ViewModels
 {
     public class MessageViewModel
     {

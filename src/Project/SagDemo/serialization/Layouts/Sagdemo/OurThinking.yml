@@ -1,14 +1,18 @@
 ﻿---
-ID: "cd1590e1-6573-4cc7-b0a9-e3bb6a9dade4"
+ID: "2d805073-5d96-4c55-838c-9ed1f0be6e4a"
 Parent: "afe0207c-7d18-4e89-8082-3dc23997dc07"
 Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
-Path: /sitecore/layout/Layouts/Project/Sagdemo/Default
+Path: /sitecore/layout/Layouts/Project/Sagdemo/OurThinking
 SharedFields:
 - ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
   Hint: Path
-  Value: /Views/Layouts/Sagdemo/Default.cshtml
+  Value: /Views/Layouts/Sagdemo/OurThinking.cshtml
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: OurThinking
   Versions:
   - Version: 1
     Fields:
@@ -25,11 +29,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a4812f53-ea70-4726-8fd5-b9691a392dcd"
+      Value: "f90e643e-7723-4e0e-9460-1d886b16750b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230709T212451Z
+      Value: 20230709T230049Z
